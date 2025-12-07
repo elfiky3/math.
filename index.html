@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematics Laws & Definitions - Grade 2 Secondary</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <h1 class="header-title">Mathematics Laws & Definitions</h1>
+            <p class="header-subtitle">Grade 2 Secondary - First Term | Linear Algebra & Trigonometry</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Search and Filter Section -->
+        <div class="filter-section">
+            <!-- Search Bar -->
+            <div class="search-container">
+                <label for="search-input" class="search-label">Search</label>
+                <div class="search-wrapper">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <input 
+                        type="text" 
+                        id="search-input"
+                        placeholder="Search laws, definitions, or formulas..."
+                        class="search-input"
+                    >
+                </div>
+            </div>
+
+            <!-- Category Filter -->
+            <div class="filter-container">
+                <label class="filter-label">Filter by Unit</label>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="unit5">Unit 5: Linear Algebra</button>
+                    <button class="filter-btn" data-filter="unit6">Unit 6: Trigonometry</button>
+                </div>
+            </div>
+
+            <!-- Type Filter -->
+            <div class="filter-container">
+                <label class="filter-label">Filter by Type</label>
+                <div class="filter-buttons">
+                    <button class="filter-btn-type active" data-type="all">All</button>
+                    <button class="filter-btn-type" data-type="law">Laws</button>
+                    <button class="filter-btn-type" data-type="definition">Definitions</button>
+                    <button class="filter-btn-type" data-type="formula">Formulas</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Count -->
+        <div class="results-count">
+            Showing <span id="results-shown">0</span> of <span id="results-total">0</span> items
+        </div>
+
+        <!-- Laws List -->
+        <div class="laws-list" id="laws-list">
+            <!-- Items will be populated by JavaScript -->
+        </div>
+
+        <!-- No Results Message -->
+        <div class="no-results" id="no-results" style="display: none;">
+            <p class="no-results-title">No results found</p>
+            <p class="no-results-subtitle">Try adjusting your search or filter criteria</p>
+        </div>
+
+        <!-- Footer Info -->
+        <div class="footer-info">
+            <h3 class="footer-info-title">Study Tips</h3>
+            <ul class="footer-info-list">
+                <li>• Click on any item to expand and view the full explanation</li>
+                <li>• Use the search bar to quickly find specific laws or formulas</li>
+                <li>• Filter by unit to focus on Linear Algebra or Trigonometry</li>
+                <li>• Filter by type to view Laws, Definitions, or Formulas separately</li>
+                <li>• Use Ctrl+K to quickly focus the search bar</li>
+            </ul>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Mathematics Guide | Grade 2 Secondary - First Term 2025</p>
+        <p class="footer-subtitle">Linear Algebra & Trigonometry</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
